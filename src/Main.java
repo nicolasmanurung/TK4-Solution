@@ -26,7 +26,6 @@ public class Main {
             } else if (isUserWantToRetry == 2) {
                 BubbleSort ascendingBubbleSort = new BubbleSort();
                 ascendingBubbleSort.bubbleSortAscending(listRandomData);
-
             } else if (isUserWantToRetry == 3) {
 
             } else if (isUserWantToRetry == 4) {
