@@ -27,12 +27,14 @@ public class Main {
                 BubbleSort ascendingBubbleSort = new BubbleSort();
                 ascendingBubbleSort.bubbleSortAscending(listRandomData);
             } else if (isUserWantToRetry == 3) {
-               
+                SelectionSort selectionSortAscending = new SelectionSort();
+                selectionSortAscending.selectionSortAscending(listRandomData);
             } else if (isUserWantToRetry == 4) {
                 BubbleSort descendingBubbleSort = new BubbleSort();
                 descendingBubbleSort.bubbleSortDescending(listRandomData);
             } else if (isUserWantToRetry == 5) {
-
+                SelectionSort selectionSortDescending = new SelectionSort();
+                selectionSortDescending.selectionSortDescending(listRandomData);
             }
         }
     }
