@@ -27,9 +27,10 @@ public class Main {
                 BubbleSort ascendingBubbleSort = new BubbleSort();
                 ascendingBubbleSort.bubbleSortAscending(listRandomData);
             } else if (isUserWantToRetry == 3) {
-
+               
             } else if (isUserWantToRetry == 4) {
-
+                BubbleSort descendingBubbleSort = new BubbleSort();
+                descendingBubbleSort.bubbleSortDescending(listRandomData);
             } else if (isUserWantToRetry == 5) {
 
             }
